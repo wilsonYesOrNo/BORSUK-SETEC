@@ -1,1 +1,651 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta
+        name="description"
+        content="Conheça o universo dos jogos, seus tipos, benefícios e impactos."
+    >
+
+    <title>GameLab — Universo dos Jogos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                <span>🎮</span> GameLab
+            </a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tipos">Tipos</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#minijogos">Minijogos</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content container">
+
+                <div class="hero-text">
+
+                    <span class="tag">🎮 UNIVERSO DOS JOGOS</span>
+
+                    <h1>
+                        Jogar é mais do que
+                        <span>diversão.</span>
+                    </h1>
+
+                    <p>
+                        Descubra como os jogos podem estimular a criatividade,
+                        a estratégia, a resolução de problemas e a interação
+                        entre pessoas.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#sobre" class="button primary">
+                            Explorar
+                        </a>
+
+                        <a href="#quiz" class="button secondary">
+                            Fazer o quiz
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="game-console" aria-hidden="true">
+                    <div class="console-screen">
+                        <span>PRESS START</span>
+                    </div>
+
+                    <div class="console-controls">
+                        <div class="dpad">
+                            <span class="up">▲</span>
+                            <span class="left">◀</span>
+                            <span class="center"></span>
+                            <span class="right">▶</span>
+                            <span class="down">▼</span>
+                        </div>
+
+                        <div class="buttons">
+                            <span>A</span>
+                            <span>B</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+        <section class="section" id="sobre">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">01 — SOBRE</span>
+
+                    <h2>
+                        Por que falar sobre
+                        <span>jogos?</span>
+                    </h2>
+
+                    <p>
+                        Os jogos fazem parte da cultura e do cotidiano de
+                        milhões de pessoas. Eles podem assumir diferentes
+                        formatos e objetivos, indo muito além do entretenimento.
+                    </p>
+                </div>
+
+                <div class="info-grid">
+
+                    <article class="info-card">
+                        <div class="card-icon">🧠</div>
+                        <h3>Desenvolvimento</h3>
+                        <p>
+                            Diferentes jogos podem estimular raciocínio,
+                            atenção, planejamento e tomada de decisões.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon">🤝</div>
+                        <h3>Interação</h3>
+                        <p>
+                            Jogos multiplayer e de tabuleiro podem criar
+                            oportunidades de colaboração e comunicação.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon">✨</div>
+                        <h3>Criatividade</h3>
+                        <p>
+                            Muitos jogos incentivam a exploração, a criação
+                            e a busca por soluções diferentes para desafios.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TIPOS -->
+        <section class="section dark-section" id="tipos">
+
+            <div class="container">
+
+                <div class="section-heading light">
+
+                    <span class="tag">02 — CATEGORIAS</span>
+
+                    <h2>
+                        Existem muitos tipos
+                        de <span>jogos.</span>
+                    </h2>
+
+                    <p>
+                        Cada categoria proporciona experiências diferentes.
+                        Conheça algumas delas.
+                    </p>
+
+                </div>
+
+                <div class="games-grid">
+
+                    <article class="game-card">
+                        <div class="game-image strategy">
+                            ♟️
+                        </div>
+
+                        <div class="game-content">
+                            <span>ESTRATÉGIA</span>
+                            <h3>Jogos de estratégia</h3>
+                            <p>
+                                Exigem planejamento, análise de possibilidades
+                                e tomada de decisões.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image adventure">
+                            🗺️
+                        </div>
+
+                        <div class="game-content">
+                            <span>AVENTURA</span>
+                            <h3>Jogos de aventura</h3>
+                            <p>
+                                Exploração, histórias e desafios são elementos
+                                comuns desse gênero.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image puzzle">
+                            🧩
+                        </div>
+
+                        <div class="game-content">
+                            <span>PUZZLE</span>
+                            <h3>Jogos de lógica</h3>
+                            <p>
+                                Apresentam problemas que precisam ser analisados
+                                e solucionados.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image sport">
+                            🏆
+                        </div>
+
+                        <div class="game-content">
+                            <span>ESPORTES</span>
+                            <h3>Jogos esportivos</h3>
+                            <p>
+                                Reproduzem ou simulam modalidades esportivas
+                                em diferentes formatos.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image board">
+                            🎲
+                        </div>
+
+                        <div class="game-content">
+                            <span>TABULEIRO</span>
+                            <h3>Jogos de tabuleiro</h3>
+                            <p>
+                                Podem combinar regras, estratégia, sorte e
+                                interação presencial.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="game-card">
+                        <div class="game-image educational">
+                            📚
+                        </div>
+
+                        <div class="game-content">
+                            <span>EDUCATIVOS</span>
+                            <h3>Jogos educativos</h3>
+                            <p>
+                                Utilizam elementos de jogos para apoiar
+                                processos de aprendizagem.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BENEFÍCIOS -->
+        <section class="section" id="beneficios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="tag">03 — BENEFÍCIOS</span>
+
+                    <h2>
+                        O que podemos
+                        <span>desenvolver?</span>
+                    </h2>
+
+                    <p>
+                        Dependendo do tipo de jogo, da forma como ele é utilizado
+                        e do contexto, diferentes habilidades podem ser
+                        trabalhadas.
+                    </p>
+
+                </div>
+
+                <div class="skills">
+
+                    <div class="skill">
+                        <div class="skill-number">01</div>
+
+                        <div>
+                            <h3>Raciocínio lógico</h3>
+                            <p>
+                                Analisar informações e estabelecer relações
+                                para encontrar soluções.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-number">02</div>
+
+                        <div>
+                            <h3>Resolução de problemas</h3>
+                            <p>
+                                Experimentar estratégias e avaliar diferentes
+                                possibilidades diante de desafios.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-number">03</div>
+
+                        <div>
+                            <h3>Trabalho em equipe</h3>
+                            <p>
+                                Cooperar, comunicar-se e dividir objetivos
+                                durante atividades coletivas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-number">04</div>
+
+                        <div>
+                            <h3>Criatividade</h3>
+                            <p>
+                                Criar estratégias, possibilidades e soluções
+                                para situações apresentadas pelo jogo.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="warning-box">
+                    <span>⚠️</span>
+
+                    <div>
+                        <h3>Equilíbrio é importante</h3>
+
+                        <p>
+                            Jogar pode ser uma atividade de lazer e aprendizado,
+                            mas é importante equilibrar o tempo dedicado aos
+                            jogos com sono, estudos, atividades físicas,
+                            alimentação e convivência social.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MINIJOGOS -->
+        <section class="section dark-section" id="minijogos">
+
+            <div class="container">
+
+                <div class="section-heading light">
+                    <span class="tag">04 — MINIJOGOS</span>
+
+                    <h2>
+                        Escolha um desafio
+                        <span>e jogue agora.</span>
+                    </h2>
+
+                    <p>
+                        Três jogos rápidos para testar sua estratégia, sorte
+                        e capacidade de decisão.
+                    </p>
+                </div>
+
+                <div class="mini-games-grid">
+
+                    <article class="mini-game">
+                        <div class="mini-game-heading">
+                            <span class="mini-game-icon">⭕</span>
+                            <div>
+                                <span class="game-label">ESTRATÉGIA</span>
+                                <h3>Jogo da velha</h3>
+                            </div>
+                        </div>
+
+                        <div class="tic-tac-toe" id="ticTacToeBoard" aria-label="Tabuleiro do jogo da velha">
+                            <button data-cell="0" aria-label="Casa 1"></button>
+                            <button data-cell="1" aria-label="Casa 2"></button>
+                            <button data-cell="2" aria-label="Casa 3"></button>
+                            <button data-cell="3" aria-label="Casa 4"></button>
+                            <button data-cell="4" aria-label="Casa 5"></button>
+                            <button data-cell="5" aria-label="Casa 6"></button>
+                            <button data-cell="6" aria-label="Casa 7"></button>
+                            <button data-cell="7" aria-label="Casa 8"></button>
+                            <button data-cell="8" aria-label="Casa 9"></button>
+                        </div>
+                        <p class="game-status" id="ticTacToeStatus">Sua vez: você joga com X.</p>
+                        <button class="button game-reset" id="ticTacToeReset">Recomeçar</button>
+                    </article>
+
+                    <article class="mini-game">
+                        <div class="mini-game-heading">
+                            <span class="mini-game-icon">✊</span>
+                            <div>
+                                <span class="game-label">DECISÃO</span>
+                                <h3>Pedra, papel e tesoura</h3>
+                            </div>
+                        </div>
+
+                        <div class="rps-choices">
+                            <button class="choice-button" data-choice="pedra">✊<span>Pedra</span></button>
+                            <button class="choice-button" data-choice="papel">✋<span>Papel</span></button>
+                            <button class="choice-button" data-choice="tesoura">✌️<span>Tesoura</span></button>
+                        </div>
+                        <p class="game-status" id="rpsStatus">Escolha uma opção para jogar.</p>
+                        <p class="game-score" id="rpsScore">Você 0 × 0 Computador</p>
+                    </article>
+
+                    <article class="mini-game">
+                        <div class="mini-game-heading">
+                            <span class="mini-game-icon">🔢</span>
+                            <div>
+                                <span class="game-label">RACIOCÍNIO</span>
+                                <h3>Adivinhe o número</h3>
+                            </div>
+                        </div>
+
+                        <p class="game-instruction">Pensei em um número entre 1 e 20.</p>
+                        <div class="number-guess-form">
+                            <input id="guessInput" type="number" min="1" max="20" placeholder="1–20" aria-label="Seu palpite">
+                            <button class="button primary" id="guessButton">Tentar</button>
+                        </div>
+                        <p class="game-status" id="guessStatus">Você tem 5 tentativas.</p>
+                        <button class="button game-reset" id="guessReset">Novo número</button>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- QUIZ -->
+        <section class="section quiz-section" id="quiz">
+
+            <div class="container">
+
+                <div class="quiz-container">
+
+                    <div class="section-heading light">
+
+                        <span class="tag">05 — DESAFIO</span>
+
+                        <h2>
+                            Teste seus
+                            <span>conhecimentos!</span>
+                        </h2>
+
+                        <p>
+                            Responda às perguntas e descubra quanto você
+                            aprendeu sobre o universo dos jogos.
+                        </p>
+
+                    </div>
+
+                    <div class="quiz-box" id="quizBox">
+
+                        <div class="quiz-progress">
+                            <span id="questionNumber">Pergunta 1 de 5</span>
+
+                            <div class="progress">
+                                <div id="progressBar"></div>
+                            </div>
+                        </div>
+
+                        <h3 id="question">
+                            Qual destes é um exemplo de jogo de estratégia?
+                        </h3>
+
+                        <div class="answers" id="answers"></div>
+
+                        <button
+                            class="button primary quiz-button"
+                            id="nextButton"
+                            disabled
+                        >
+                            Próxima pergunta
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- REFERÊNCIAS -->
+        <section class="section" id="referencias">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="tag">06 — REFERÊNCIAS</span>
+
+                    <h2>
+                        Para <span>pesquisar mais.</span>
+                    </h2>
+
+                    <p>
+                        Algumas fontes confiáveis para aprofundar os estudos
+                        sobre jogos, aprendizagem e desenvolvimento.
+                    </p>
+
+                </div>
+
+                <div class="references">
+
+                    <article>
+                        <span>01</span>
+
+                        <div>
+                            <h3>American Psychological Association</h3>
+                            <p>
+                                Materiais e pesquisas relacionados à psicologia,
+                                comportamento e jogos digitais.
+                            </p>
+
+                            <a
+                                href="https://www.apa.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visitar fonte →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <span>02</span>
+
+                        <div>
+                            <h3>UNESCO</h3>
+                            <p>
+                                Publicações sobre educação, aprendizagem e
+                                tecnologias digitais.
+                            </p>
+
+                            <a
+                                href="https://www.unesco.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visitar fonte →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <span>03</span>
+
+                        <div>
+                            <h3>W3C — Web Accessibility Initiative</h3>
+                            <p>
+                                Referência para acessibilidade e boas práticas
+                                na construção de páginas Web.
+                            </p>
+
+                            <a
+                                href="https://www.w3.org/WAI/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visitar fonte →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <span>04</span>
+
+                        <div>
+                            <h3>MDN Web Docs</h3>
+                            <p>
+                                Documentação técnica sobre HTML, CSS e
+                                JavaScript.
+                            </p>
+
+                            <a
+                                href="https://developer.mozilla.org/pt-BR/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visitar fonte →
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#inicio" class="logo">
+                    <span>🎮</span> GameLab
+                </a>
+
+                <p>
+                    Um projeto educativo sobre o universo dos jogos.
+                </p>
+            </div>
+
+            <p>
+                © 2026 GameLab — Projeto acadêmico
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
